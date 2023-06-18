@@ -2,7 +2,7 @@ const canvas = document.getElementById('gameCanvas');
 const canvasContext = canvas.getContext('2d');
 const PADDLE_HEIGHT = 100;
 const PADDLE_WIDTH = 10;
-const WIN_SCORE = 100;
+const WIN_SCORE = 3;
 
 let ballX = 50;
 let ballY = 50;
